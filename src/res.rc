@@ -1,0 +1,20 @@
+#include <winver.h>
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1, 0, 0, 0
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "000004B0"
+        {
+            VALUE "CompanyName", "Aetopia"
+            VALUE "ProductVersion",	"1.0.0.0"            
+            VALUE "ProductName", "MCBE D3D12 Disabler"
+            VALUE "FileDescription", "MCBE D3D12 Disabler"
+            VALUE "LegalCopyright", "https://github.com/Aetopia/MCBE.D3D12.Disabler"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0, 1200
+    }
+}
